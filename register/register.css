@@ -1,0 +1,115 @@
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-variant: small-caps;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header span{
+    color: #4bbf6e;
+    }
+.header h1 {
+    margin: 10px;
+}
+
+.header nav {
+    display: flex;
+    gap: 45px;
+   
+}
+
+.header nav li {
+    display: inline;
+    
+}
+
+.header nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+   
+    transition: background-color 0.3s;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.301);
+}
+
+.header nav a:hover {
+    border-bottom: 1px solid rgba(59, 180, 32, 0.839);
+
+}
+
+.form {
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );  
+    
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.form h1 {
+    margin-bottom: 1.5rem;
+    color: #333;
+    font-size: 2rem;
+}
+
+.form input {
+    width: calc(100% - 2rem);
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #c6c3c3;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form .forget, .form .create {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    color: #666;
+}
+
+.form .forget {
+    text-align: right;
+}
+
+.form .create {
+    text-align: left;
+}
+
+.form .create a {
+    color: #c26c0a;
+    text-decoration: none;
+}
+
+.form .create a:hover {
+    text-decoration: underline;
+}
+
+.form .submit {
+   border: 1px solid black;
+    color: #000000;
+    padding: 0.75rem 1.5rem;
+    
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form .submit:hover {
+    background-color: #41d958;
+}
+

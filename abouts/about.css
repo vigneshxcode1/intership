@@ -1,0 +1,122 @@
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-variant: small-caps;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header span{
+    color: #4bbf6e;
+    }
+.header h1 {
+    margin: 10px;
+}
+
+.header nav {
+    display: flex;
+    gap: 45px;
+   
+}
+
+.header nav li {
+    display: inline;
+    
+}
+
+.header nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+   
+    transition: background-color 0.3s;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.301);
+}
+
+.header nav a:hover {
+    border-bottom: 1px solid rgba(59, 180, 32, 0.839);
+
+}
+
+
+body, h1, h2, p, span, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url('../image/rectangle-neon-3840x2160-16717.jpg');
+    backdrop-filter: blur(2px);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.about {
+    
+    padding: 2rem;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: hsl(0, 0%, 96%);
+}
+
+.about h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: #f1f1f1;
+}
+
+.about p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    color: #ffffff;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.about span {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    color: #8a8888;
+    font-weight: bold;
+}
+
+.about button {
+   
+   background-color:rgb(238, 233, 233);
+    color: #000000;
+    padding: 0.75rem 1.5rem;
+   border: none;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+.about button:hover {
+    background-color: #555;
+}
